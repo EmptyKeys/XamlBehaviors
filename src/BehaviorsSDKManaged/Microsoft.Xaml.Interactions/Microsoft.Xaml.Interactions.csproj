@@ -125,6 +125,7 @@
     <PRIResource Include="Resources\de-DE\Strings.resw" />
     <PRIResource Include="Resources\pt-BR\Strings.resw" />
     <PRIResource Include="Resources\en-us\Strings.resw" />
+    <PRIResource Include="Resources\uk-UA\Strings.resw" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Core\CallMethodAction.cs" />
@@ -145,7 +146,9 @@
     <Compile Include="Media\PlaySoundAction.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="..\Version\Version.cs" />
-    <Content Include="Properties\Microsoft.Xaml.Interactions.rd.xml" />
+    <Compile Include="Utility\IVisualTreeHelper.cs" />
+    <Compile Include="Utility\UwpVisualTreeHelper.cs" />
+    <EmbeddedResource Include="Properties\Microsoft.Xaml.Interactions.rd.xml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Microsoft.Xaml.Interactivity\Microsoft.Xaml.Interactivity.csproj">
@@ -164,6 +167,7 @@
     <XliffResource Include="MultilingualResources\Microsoft.Xaml.Interactions.ru-RU.xlf" />
     <XliffResource Include="MultilingualResources\Microsoft.Xaml.Interactions.zh-CN.xlf" />
     <XliffResource Include="MultilingualResources\Microsoft.Xaml.Interactions.zh-TW.xlf" />
+    <XliffResource Include="MultilingualResources\Microsoft.Xaml.Interactions.uk-UA.xlf" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
